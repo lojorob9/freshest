@@ -1,0 +1,120 @@
+html,body,h1,div,p,a,hr{
+    margin:0;
+    padding: 0;
+}
+#fresh{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80vh;
+text-align: center;
+font-family: 'Lato', sans-serif;
+color: white;
+}
+.nav{
+    display: flex;
+    justify-content:space-between ;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+.child{
+ font-size: 50px;
+}
+.searchbar{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.bar {
+    padding: 1px;
+
+   
+}
+a{
+    margin: 2px;
+    padding: 2px;
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    color: #Fff;
+}
+#first-image{
+ background-image: url(first.jpg);
+}
+a:hover {
+    color: black;
+}
+h1{
+    color: white;
+}
+#align{
+    display: flex;
+    
+}
+.line2{
+    background-color: black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    height: 40vh;
+    font-size: 20px;
+}
+#second-image{
+    background-image: url(second.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+}
+#align2{
+    display: flex;
+}
+.line3{
+    background-color: rgb(22, 22, 22);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    height: 40vh;
+    font-size: 20px;
+}
+#third-image{
+    background-image: url(third.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+}
+#align3{
+    display: flex;
+}
+.line4{
+    background-color: rgb(27, 27, 27);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    height: 40vh;
+    font-size: 20px;
+}
+#fourth-image{
+    background-image: url(fourth.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+}
